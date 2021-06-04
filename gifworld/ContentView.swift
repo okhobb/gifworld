@@ -6,11 +6,53 @@
 //
 
 import SwiftUI
+import AVKit
+
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+
+            
+            
+            ZStack {
+                VideoViewContainer()
+                    .frame(width: 50, height: 50)
+                    .offset(x: 50, y: 20)
+                VideoViewContainer()
+                    .frame(width: 50, height: 50)
+                    .offset(x: -20, y: 40)
+            }
+            Spacer()
+            HStack {
+                
+                Button {
+                    print("Button pressed")
+                } label: {
+                    Text("Press Me")
+                        .padding(20)
+                }
+                .contentShape(Rectangle())
+                
+                Button {
+                    print("Button smashed")
+                } label: {
+                    Text("Press 2")
+                        .padding(20)
+                }
+                .contentShape(Rectangle())
+                
+                
+            }
+
+        }
+
+    }
+}
+
+struct VideoViewContainer: View {
+    var body: some View {
+        VideoView()
     }
 }
 

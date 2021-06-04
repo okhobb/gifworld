@@ -13,6 +13,7 @@
 		2A9E6F5D266AD60600E9D52C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A9E6F5C266AD60600E9D52C /* Preview Assets.xcassets */; };
 		2A9E6F68266AD60700E9D52C /* gifworldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9E6F67266AD60700E9D52C /* gifworldTests.swift */; };
 		2A9E6F73266AD60700E9D52C /* gifworldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9E6F72266AD60700E9D52C /* gifworldUITests.swift */; };
+		2A9E6F81266AD64100E9D52C /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9E6F80266AD64100E9D52C /* VideoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		2A9E6F6E266AD60700E9D52C /* gifworldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gifworldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A9E6F72266AD60700E9D52C /* gifworldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gifworldUITests.swift; sourceTree = "<group>"; };
 		2A9E6F74266AD60700E9D52C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A9E6F80266AD64100E9D52C /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				2A9E6F55266AD60500E9D52C /* gifworldApp.swift */,
 				2A9E6F57266AD60500E9D52C /* ContentView.swift */,
+				2A9E6F80266AD64100E9D52C /* VideoView.swift */,
 				2A9E6F59266AD60600E9D52C /* Assets.xcassets */,
 				2A9E6F5E266AD60600E9D52C /* Info.plist */,
 				2A9E6F5B266AD60600E9D52C /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A9E6F81266AD64100E9D52C /* VideoView.swift in Sources */,
 				2A9E6F58266AD60500E9D52C /* ContentView.swift in Sources */,
 				2A9E6F56266AD60500E9D52C /* gifworldApp.swift in Sources */,
 			);
