@@ -1,0 +1,28 @@
+PODS:
+  - Giphy (2.1.8):
+    - libwebp
+  - libwebp (1.2.0):
+    - libwebp/demux (= 1.2.0)
+    - libwebp/mux (= 1.2.0)
+    - libwebp/webp (= 1.2.0)
+  - libwebp/demux (1.2.0):
+    - libwebp/webp
+  - libwebp/mux (1.2.0):
+    - libwebp/demux
+  - libwebp/webp (1.2.0)
+
+DEPENDENCIES:
+  - Giphy
+
+SPEC REPOS:
+  trunk:
+    - Giphy
+    - libwebp
+
+SPEC CHECKSUMS:
+  Giphy: ef5125f9b47c259b59244803a6ffe763f4f4a7bf
+  libwebp: e90b9c01d99205d03b6bb8f2c8c415e5a4ef66f0
+
+PODFILE CHECKSUM: 69220eb305f411a8205d13314e472ab67fd48211
+
+COCOAPODS: 1.10.1
